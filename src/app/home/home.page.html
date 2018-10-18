@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Ionic PWA
+    </ion-title>
+    <ion-buttons *ngIf="showInstallBtn" slot="primary">
+     <ion-button (click)="showInstallBanner()">
+       Install
+     </ion-button>
+   </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col *ngFor="let feature of pwa_features" size="6" (click)="goToDetailsView(feature)">
+        <preload-image [ratio]="{w: 1, h: 1}" [src]="feature.image"></preload-image>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

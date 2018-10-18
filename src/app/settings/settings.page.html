@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Settings
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+   <ion-label>Enable Notifications</ion-label>
+   <ion-toggle [(ngModel)]="notifications" (ionChange)="requestPushNotificationsPermission($event)"></ion-toggle>
+ </ion-item>
+</ion-content>
