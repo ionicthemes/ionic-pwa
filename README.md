@@ -4,14 +4,14 @@
 
 Ionic is a step forward for Progressive Web Apps.
 
-This repository is part of an ionic tutorial where you will learn what are Progressive Web Apps, why you should definitely consider them for your next project, and also how easy is to build a feature complete PWA with Ionic.
+This repository is part of an [ionic tutorial](https://ionicthemes.com/tutorials/about/the-complete-guide-to-progressive-web-apps-with-ionic4) where you will learn what are Progressive Web Apps, why you should definitely consider them for your next project, and also how easy is to build a feature complete PWA with Ionic.
 
 This post is part of the “Mastering Ionic” series which deep dives into Ionic advanced stuff. Don’t be afraid, if you are new to Ionic 5, I strongly recommend you to first read our [introduction to ionic 5](https://ionicthemes.com/tutorials/about/ionic5-tutorial-migration-and-starter) previous tutorial.
 
 ## Demo
 
-[Video](https://youtu.be/TvJtCrErenM)
-[Online demo](https://pwa-talk-meetup.web.app/)
+- [Video](https://youtu.be/TvJtCrErenM)
+- [Online demo](https://pwa-talk-meetup.web.app/)
 
 
 ### Get a premium Ionic 5 Starter App
