@@ -1,0 +1,54 @@
+$white: #FFFFFF;
+$grey: #9e9e9e;
+
+$preload-image-bg: rgba(darken($white, 10), .25);
+
+$spinner-size: 28px;
+$spinner-color: $grey;
+
+preload-image {
+  display: block;
+  background-color: $preload-image-bg;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+  .spinner {
+    position: absolute;
+    top: calc(50% - #{ ($spinner-size/2) });
+    left: calc(50% - #{ ($spinner-size/2) });
+    width: $spinner-size;
+    height: $spinner-size;
+    font-size: $spinner-size;
+    line-height: $spinner-size;
+    color: $spinner-color;
+  }
+
+  // ion-img {
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: visibility 0s linear, opacity .5s linear;
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+  }
+
+  &.img-loaded {
+    background-color: transparent;
+    border: 0;
+
+    // ion-img {
+    img {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .spinner {
+      display: none;
+      visibility: hidden;
+    }
+  }
+}

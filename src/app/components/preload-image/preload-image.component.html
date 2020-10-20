@@ -1,0 +1,4 @@
+<ion-spinner class="spinner"></ion-spinner>
+<!-- ion-img tiene un bug con intersection observer en Safari -->
+<!-- <ion-img [src]="_src" (ionImgDidLoad)="_loaded(true)"></ion-img> -->
+<img [src]="_src" (load)="_loaded(true)"/>

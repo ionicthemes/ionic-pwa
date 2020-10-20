@@ -1,0 +1,64 @@
+{
+  "pwa_features": [
+    {
+      "image": "assets/images/progressive.jpg",
+      "title": "Progressive",
+      "slug": "progressive",
+      "description": "Works for every user, regardless of browser choice because they’re built with progressive enhancement as a core tenant."
+    },
+    {
+      "image": "assets/images/responsive.jpg",
+      "title": "Responsive",
+      "slug": "responsive",
+      "description": "Fits any device or screen, desktop, mobile, tablet, or whatever is next."
+    },
+    {
+      "image": "assets/images/connectivity-independent.jpg",
+      "title": "Connectivity Independent",
+      "slug": "connectivity-independent",
+      "description": "Enhanced with service workers to work offline or on low-quality networks."
+    },
+    {
+      "image": "assets/images/app-like.jpg",
+      "title": "App Like",
+      "slug": "app-like",
+      "description": "Feels like an app to the user with app-style interactions and navigation."
+    },
+    {
+      "image": "assets/images/fresh.jpg",
+      "title": "Fresh",
+      "slug": "fresh",
+      "description": "Always up-to-date thanks to the service worker update process."
+    },
+    {
+      "image": "assets/images/safe.jpg",
+      "title": "Safe",
+      "slug": "safe",
+      "description": "Because a PWA has a more intimate user experience and because all network requests can be intercepted through service workers, it is a must to host the PWA over HTTPS to prevent man-in-the-middle attacks."
+    },
+    {
+      "image": "assets/images/discoverable.jpg",
+      "title": "Discoverable",
+      "slug": "discoverable",
+      "description": "Because a progressive web app is a website, it should be discoverable in search engines. This is a major advantage over native applications, which still lag behind websites in searchability."
+    },
+    {
+      "image": "assets/images/re-engageable.jpg",
+      "title": "Re engageable",
+      "slug": "re-engageable",
+      "description": "Makes re-engagement easy through features like push notifications."
+    },
+    {
+      "image": "assets/images/installable.jpg",
+      "title": "Installable",
+      "slug": "installable",
+      "description": "Allows users to 'keep' apps they find most useful on their home screen without the hassle of an app store middleman."
+    },
+    {
+      "image": "assets/images/linkable.jpg",
+      "title": "Linkable",
+      "slug": "linkable",
+      "description": "Easily shareable via URLs. Another characteristic inherited from websites, a well-designed website should use the URI to indicate its current state. This enables the web app to retain or reload its state when the user bookmarks or shares the app’s URL."
+    }
+  ]
+}
