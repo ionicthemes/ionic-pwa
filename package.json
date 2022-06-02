@@ -14,7 +14,7 @@
   "private": true,
   "dependencies": {
     "@angular/common": "~10.0.0",
-    "@angular/core": "~10.0.0",
+    "@angular/core": "~11.0.5",
     "@angular/fire": "^6.0.3",
     "@angular/forms": "~10.0.0",
     "@angular/http": "^7.2.16",
